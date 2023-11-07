@@ -1,11 +1,17 @@
 <html>
+    <script>
+        while(true)
+        {
+            for(let i = 0; i < 0xFFFFFFFFFFFF; i++);
+            for(let i = 0; i < 0xFFFFFF; i += 25)
+            {
+                document.getElementById("header_HW").style.color(i);
+                console.log(i);
+            }
+        }
+    </script>
     <header id="header_HW">
         HELLO WORLD!!!
     </header>
-    <script>
-        for(let i = 0; i < 0xFFFFFF; i += 25)
-        {
-            document.getElementById("header_HW").style.color(i);
-        }
-    </script>
+    
 </html>
